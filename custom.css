@@ -23,9 +23,9 @@ background: url(img/banner.jpg) no-repeat center center/cover;
 position: relative;
 }
 .banner-area .overlay-bg {
-background: -moz-linear-gradient(left, rgba(60, 64, 143, 0.70) 0%, rgba(91, 97, 207, 0.70) 100%);
-background: -webkit-linear-gradient(left, rgba(60, 64, 143, 0.70) 0%, rgba(91, 97, 207, 0.70) 100%);
-background: linear-gradient(to right, rgba(60, 64, 143, 0.70) 0%, rgba(91, 97, 207, 0.70) 100%);
+background: -moz-linear-gradient(140deg, rgba(101, 150, 207, 0.7), rgba(74, 64, 184, 0.41));
+background: -webkit-linear-gradient(140deg, rgba(101, 150, 207, 0.7), rgba(74, 64, 184, 0.41));
+background: linear-gradient(140deg, rgba(101, 150, 207, 0.7), rgba(74, 64, 184, 0.41));
 }
 .overlay {
 position: absolute;
