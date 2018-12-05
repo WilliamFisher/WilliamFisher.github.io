@@ -13,13 +13,12 @@ content = soup.find(id="menu-station-data-a1d0c6e83f027327d8461063f4ac58a6-d3957
 
 list = content.find_all('a')
 
-items = []
+items = {}
 
-for child in list:
-    items.append(child.string)
+for idx, child in enumerate(list):
+    items[idx] = (child.string)
 
 print (json.dumps(items))
 
 with open('data.json', 'w') as outfile:
     json.dump(items, outfile)
-
