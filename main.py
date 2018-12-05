@@ -16,7 +16,7 @@ list = content.find_all('a')
 items = {}
 
 for idx, child in enumerate(list):
-    items[idx] = (child.string)
+    items[idx] = (child.string+".")
 
 print (json.dumps(items))
 
