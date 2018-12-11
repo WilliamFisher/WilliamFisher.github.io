@@ -19,7 +19,7 @@ dinner = section[dinnerNum - 1].find_all('a')
 items = {}
 
 for idx, child in enumerate(dinner):
-    items[idx] = (child.string)
+    items[idx] = (child.string+'.')
 
 with open('dinner.json', 'w') as outfile:
     json.dump(items, outfile)
