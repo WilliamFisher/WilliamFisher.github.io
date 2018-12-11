@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup;
 import urllib2;
 import json;
 
-lunchUrl = "https://www.elondining.com/locations/clohan-hall/?date=2018-12-13"
+lunchUrl = "https://www.elondining.com/locations/clohan-hall"
 
 print('Getting dinner menu....')
 
