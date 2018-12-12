@@ -4,7 +4,7 @@ import json;
 
 lunchUrl = "https://www.elondining.com/locations/clohan-hall"
 
-print('Getting dinner menu....')
+print('Getting Clohan lunch and dinner items....')
 
 content = urllib2.urlopen(lunchUrl).read()
 
@@ -22,6 +22,17 @@ for idx, child in enumerate(dinner):
     items[idx] = (child.string+'.')
 
 with open('dinner.json', 'w') as outfile:
+    json.dump(items, outfile)
+
+
+items.clear()
+
+lunch = section[dinnerNum - 2].find_all('a')
+
+for idx, child in enumerate(lunch):
+    items[idx] = (child.string+'.')
+
+with open('lunch.json', 'w') as outfile:
     json.dump(items, outfile)
 
 print('Done.')
