@@ -4,7 +4,15 @@
         <link>http://example.org/posts/</link>
         <description>All Posts | Ashton Fisher</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>ashton@me.com (Ashton Fisher)</managingEditor>
-            <webMaster>ashton@me.com (Ashton Fisher)</webMaster><lastBuildDate>Mon, 09 Aug 2021 11:40:17 -0600</lastBuildDate><atom:link href="http://example.org/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>ashton@me.com (Ashton Fisher)</webMaster><lastBuildDate>Mon, 09 Aug 2021 13:06:06 -0600</lastBuildDate><atom:link href="http://example.org/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>What Lies Below</title>
+    <link>http://example.org/posts/what_lies_below/</link>
+    <pubDate>Mon, 09 Aug 2021 13:06:06 -0600</pubDate>
+    <author>Author</author>
+    <guid>http://example.org/posts/what_lies_below/</guid>
+    <description><![CDATA[Introduction What Lies Below was a project I worked on for a game development class. It is written entirely in C# and is created with the help of the Unity3D game engine.
+This project strictly followed SOLID design principles to ensure clean code that was easy to maintain and extend as the project grew. This project grew rapidly as I added new features to the game over about two months. In total I created over 50 C# classes to support a wide range of game systems.]]></description>
+</item><item>
     <title>New Website Powered By Hugo</title>
     <link>http://example.org/posts/first_post/</link>
     <pubDate>Mon, 09 Aug 2021 11:40:17 -0600</pubDate>

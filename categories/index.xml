@@ -4,7 +4,14 @@
         <link>http://example.org/categories/</link>
         <description>Categories - Category - Ashton Fisher</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>ashton@me.com (Ashton Fisher)</managingEditor>
-            <webMaster>ashton@me.com (Ashton Fisher)</webMaster><lastBuildDate>Mon, 09 Aug 2021 11:40:17 -0600</lastBuildDate><atom:link href="http://example.org/categories/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>ashton@me.com (Ashton Fisher)</webMaster><lastBuildDate>Mon, 09 Aug 2021 13:06:06 -0600</lastBuildDate><atom:link href="http://example.org/categories/" rel="self" type="application/rss+xml" /><item>
+    <title>Projects</title>
+    <link>http://example.org/categories/projects/</link>
+    <pubDate>Mon, 09 Aug 2021 13:06:06 -0600</pubDate>
+    <author>Author</author>
+    <guid>http://example.org/categories/projects/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
     <title>Personal Website</title>
     <link>http://example.org/categories/personal-website/</link>
     <pubDate>Mon, 09 Aug 2021 11:40:17 -0600</pubDate>

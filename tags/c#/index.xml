@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>C# - Tag - Ashton Fisher</title>
+        <link>http://example.org/tags/c#/</link>
+        <description>C# - Tag - Ashton Fisher</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>ashton@me.com (Ashton Fisher)</managingEditor>
+            <webMaster>ashton@me.com (Ashton Fisher)</webMaster><lastBuildDate>Mon, 09 Aug 2021 13:06:06 -0600</lastBuildDate><atom:link href="http://example.org/tags/c#/" rel="self" type="application/rss+xml" /><item>
+    <title>What Lies Below</title>
+    <link>http://example.org/posts/what_lies_below/</link>
+    <pubDate>Mon, 09 Aug 2021 13:06:06 -0600</pubDate>
+    <author>Author</author>
+    <guid>http://example.org/posts/what_lies_below/</guid>
+    <description><![CDATA[Introduction What Lies Below was a project I worked on for a game development class. It is written entirely in C# and is created with the help of the Unity3D game engine.
+This project strictly followed SOLID design principles to ensure clean code that was easy to maintain and extend as the project grew. This project grew rapidly as I added new features to the game over about two months. In total I created over 50 C# classes to support a wide range of game systems.]]></description>
+</item></channel>
+</rss>
