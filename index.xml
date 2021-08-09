@@ -1,0 +1,18 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Ashton Fisher</title>
+        <link>http://example.org/</link>
+        <description>Personal website of Ashton Fisher</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>ashton@me.com (Ashton Fisher)</managingEditor>
+            <webMaster>ashton@me.com (Ashton Fisher)</webMaster><lastBuildDate>Mon, 09 Aug 2021 11:40:17 -0600</lastBuildDate>
+            <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+    <title>New Website Powered By Hugo</title>
+    <link>http://example.org/posts/first_post/</link>
+    <pubDate>Mon, 09 Aug 2021 11:40:17 -0600</pubDate>
+    <author>Author</author>
+    <guid>http://example.org/posts/first_post/</guid>
+    <description><![CDATA[Introduction Originally I had a very simple setup for my personal website. It is a very basic Bootstrap jumbotron with a link to my Github page. This was only ever meant to be a palceholder until I had the time to create a real website.
+My website has looked like the image above since May of 2019. Nearly two years later I have realized it is time for a serious upgrade.]]></description>
+</item></channel>
+</rss>
