@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>JavaScript - Tag - Ashton Fisher</title>
+        <link>http://example.org/tags/javascript/</link>
+        <description>JavaScript - Tag - Ashton Fisher</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>ashton@me.com (Ashton Fisher)</managingEditor>
+            <webMaster>ashton@me.com (Ashton Fisher)</webMaster><lastBuildDate>Sat, 01 Jan 2022 14:49:08 -0700</lastBuildDate><atom:link href="http://example.org/tags/javascript/" rel="self" type="application/rss+xml" /><item>
+    <title>Rusty Trader App</title>
+    <link>http://example.org/posts/rusty_trader/</link>
+    <pubDate>Sat, 01 Jan 2022 14:49:08 -0700</pubDate>
+    <author>Author</author>
+    <guid>http://example.org/posts/rusty_trader/</guid>
+    <description><![CDATA[Introduction  Rust Console Edition   Rusty Trader is a web app that allows players of Rust: Console Edition to browse and create trades for in-game items. Like many of my projects, Rusty Trader was created from a specific problem I had experienced. Trade is an important aspect of the game and the lack of a built-in text chat makes it difficult.
+This will be less of an issue once the community is allowed to rent and run game servers.]]></description>
+</item></channel>
+</rss>

@@ -4,12 +4,33 @@
         <link>http://example.org/tags/</link>
         <description>Tags - Tag - Ashton Fisher</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>ashton@me.com (Ashton Fisher)</managingEditor>
-            <webMaster>ashton@me.com (Ashton Fisher)</webMaster><lastBuildDate>Mon, 09 Aug 2021 13:06:06 -0600</lastBuildDate><atom:link href="http://example.org/tags/" rel="self" type="application/rss+xml" /><item>
-    <title>C#</title>
-    <link>http://example.org/tags/c#/</link>
-    <pubDate>Mon, 09 Aug 2021 13:06:06 -0600</pubDate>
+            <webMaster>ashton@me.com (Ashton Fisher)</webMaster><lastBuildDate>Sat, 01 Jan 2022 14:49:08 -0700</lastBuildDate><atom:link href="http://example.org/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>ASP.NET Core</title>
+    <link>http://example.org/tags/asp.net-core/</link>
+    <pubDate>Sat, 01 Jan 2022 14:49:08 -0700</pubDate>
     <author>Author</author>
-    <guid>http://example.org/tags/c#/</guid>
+    <guid>http://example.org/tags/asp.net-core/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>C-Sharp</title>
+    <link>http://example.org/tags/c-sharp/</link>
+    <pubDate>Sat, 01 Jan 2022 14:49:08 -0700</pubDate>
+    <author>Author</author>
+    <guid>http://example.org/tags/c-sharp/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>JavaScript</title>
+    <link>http://example.org/tags/javascript/</link>
+    <pubDate>Sat, 01 Jan 2022 14:49:08 -0700</pubDate>
+    <author>Author</author>
+    <guid>http://example.org/tags/javascript/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>React</title>
+    <link>http://example.org/tags/react/</link>
+    <pubDate>Sat, 01 Jan 2022 14:49:08 -0700</pubDate>
+    <author>Author</author>
+    <guid>http://example.org/tags/react/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>Game Development</title>

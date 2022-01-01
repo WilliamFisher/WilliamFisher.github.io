@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <title>Rusty Trader App - Ashton Fisher</title><meta name="Description" content="Personal website of Ashton Fisher"><meta property="og:title" content="Rusty Trader App" />
+<meta property="og:description" content="Introduction  Rust Console Edition   Rusty Trader is a web app that allows players of Rust: Console Edition to browse and create trades for in-game items. Like many of my projects, Rusty Trader was created from a specific problem I had experienced. Trade is an important aspect of the game and the lack of a built-in text chat makes it difficult.
+This will be less of an issue once the community is allowed to rent and run game servers." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/posts/rusty_trader/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-01-01T14:49:08-07:00" />
+<meta property="article:modified_time" content="2022-01-01T14:49:08-07:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Rusty Trader App"/>
+<meta name="twitter:description" content="Introduction  Rust Console Edition   Rusty Trader is a web app that allows players of Rust: Console Edition to browse and create trades for in-game items. Like many of my projects, Rusty Trader was created from a specific problem I had experienced. Trade is an important aspect of the game and the lack of a built-in text chat makes it difficult.
+This will be less of an issue once the community is allowed to rent and run game servers."/>
+<meta name="application-name" content="Ashton Fisher">
+<meta name="apple-mobile-web-app-title" content="Ashton Fisher"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://example.org/posts/rusty_trader/" /><link rel="prev" href="http://example.org/posts/what_lies_below/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Rusty Trader App",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http:\/\/example.org\/posts\/rusty_trader\/"
+        },"genre": "posts","keywords": "JavaScript, C-Sharp, React, ASP.NET Core","wordcount":  701 ,
+        "url": "http:\/\/example.org\/posts\/rusty_trader\/","datePublished": "2022-01-01T14:49:08-07:00","dateModified": "2022-01-01T14:49:08-07:00","publisher": {
+            "@type": "Organization",
+            "name": "Ashton Fisher"},"author": {
+                "@type": "Person",
+                "name": "Ashton Fisher"
+            },"description": ""
+    }
+    </script></head>
+    <body header-desktop="" header-mobile=""><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : '' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Ashton Fisher">Ashton Fisher</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Ashton Fisher">Ashton Fisher</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a></div>
+    </div>
+</header>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div>
+<main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animated flipInX">Rusty Trader App</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>Ashton Fisher</a></span>&nbsp;<span class="post-category">included in <a href="/categories/projects/"><i class="far fa-folder fa-fw"></i>Projects</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2022-01-01">2022-01-01</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;701 words&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;4 minutes&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#how-it-was-built">How It Was Built</a>
+      <ul>
+        <li><a href="#frontend">Frontend</a></li>
+        <li><a href="#backend">Backend</a></li>
+        <li><a href="#database">Database</a></li>
+      </ul>
+    </li>
+    <li><a href="#wrapping-up--screenshots">Wrapping Up + Screenshots</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h2 id="introduction">Introduction</h2>
+<p><figure><img src="/images/rust-console-header.jpg"/><figcaption>
+            <h4>Rust Console Edition</h4>
+        </figcaption>
+</figure>
+
+Rusty Trader is a web app that allows players of <a href="https://rust.double11.com" target="_blank" rel="noopener noreffer">Rust: Console Edition</a> to browse and create trades for in-game items. Like many of my projects, Rusty Trader was created from a specific problem I had experienced. Trade is an important aspect of the game and the lack of a built-in text chat makes it difficult.</p>
+<p>This will be less of an issue once the community is allowed to rent and run game servers. Trade could be facilitated with an external application, most likely a Discord server. This still leaves no option for the game&rsquo;s official servers run by Double Eleven.</p>
+<p>Rusty Trader has an easy-to-use and familiar interface that makes it easy to browse and post trades for in-game items. It is as simple as searching for the server you play on and browsing trades. Creating a new trade brings up an interface that mimics the in-game vending machine GUI so it is familiar and easy to use.</p>
+<h2 id="how-it-was-built">How It Was Built</h2>
+<h3 id="frontend">Frontend</h3>
+<p>Rusty Trader consists of a front-end web application written in JavaScript and powered by <a href="https://reactjs.org" target="_blank" rel="noopener noreffer">React</a>. It also uses <a href="https://github.com/AzureAD/microsoft-authentication-library-for-js/tree/dev/lib/msal-react" target="_blank" rel="noopener noreffer">MSAL for React</a> to handle authentication with the backend and the <a href="https://azure.microsoft.com/en-us/services/active-directory/external-identities/b2c/" target="_blank" rel="noopener noreffer">Azure B2C</a> service. I also use <a href="https://react-bootstrap.github.io" target="_blank" rel="noopener noreffer">React Bootstrap</a> for the main layout of the page and combine this with custom CSS. React Bootstrap let me quickly create a responsive layout and the custom CSS gives the application some character so it doesn&rsquo;t look like a generic Bootstrap site.</p>
+<h3 id="backend">Backend</h3>
+<p>The backend is a web API written in C# and using the <a href="https://dotnet.microsoft.com/en-us/apps/aspnet" target="_blank" rel="noopener noreffer">ASP.NET Core</a> framework. I choose these technologies for the backend for several reasons.</p>
+<p>The first is simply that I enjoy the C# language. I have used it previously with game development projects and ASP.NET MVC websites. It is strongly typed, feature-rich, and cross-platform. It does everything I need it to do, it is easy to read and understand, and the development environment Microsoft has created is unmatched.</p>
+<p>The second reason is that <a href="https://dotnet.microsoft.com/en-us/apps/aspnet" target="_blank" rel="noopener noreffer">ASP.NET</a> is mature and packed with features. Implementing authentication and authorization was a breeze especially with the <a href="https://azure.microsoft.com/en-us/services/active-directory/external-identities/b2c/" target="_blank" rel="noopener noreffer">Azure B2C</a> service. It was easy to create an API controller that implements all of the CRUD actions for any resource my app uses. Protecting these routes is as easy as adding the [Authorize] attribute above the controller class.</p>
+<p>A final reason for using this stack for the backend was to get more familiar with it. C# is growing and is quickly becoming a popular choice with companies when creating an application. I wanted to use the language and the framework for a real project as that is the best way to learn and become more comfortable with it.</p>
+<h3 id="database">Database</h3>
+<p>The last part of the technology stack I want to discuss is my choice for a database. Instead of using a SQL database, I used <a href="https://www.mongodb.com" target="_blank" rel="noopener noreffer">MongoDB</a>. There was no architectural reason behind choosing a NoSQL database (although there certainly can be). It was purely to get more experience with NoSQL databases and <a href="https://www.mongodb.com" target="_blank" rel="noopener noreffer">MongoDB</a> in particular. I will say that using the official <a href="https://docs.mongodb.com/drivers/csharp/" target="_blank" rel="noopener noreffer">MongoDB C# package</a> makes it very easy to work with the database. It was also convenient to quickly prototype without the need to worry about a strict schema or database migrations. MongoDB&rsquo;s document model maps very nicely to objects (like trades in the case of Rusty Trader). In addition to the ease of use, it was also trivial to set up a free cloud database with MongoDB Atlas.</p>
+<h2 id="wrapping-up--screenshots">Wrapping Up + Screenshots</h2>
+<p>Overall I enjoyed my time spent working on this project. C# is a fantastic language and is already quite popular. I see it growing in popularity even more with the direction Microsoft has been going. I will likely continue to add new features and may get to a point where I feel comfortable deploying it for public use. I am working on a notification system where players can be notified if someone is interested in a trade. I would also like to add the ability to create counter offers and potentially create a Discord Bot that hooks into the website. Below I have shared a few screenshots of the application in action.</p>
+<figure><img src="/images/server-search.png"/><figcaption>
+            <h4>Searching for a server</h4>
+        </figcaption>
+</figure>
+
+<figure><img src="/images/create-trade.png"/><figcaption>
+            <h4>Creating a new trade</h4>
+        </figcaption>
+</figure>
+
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2022-01-01</span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/javascript/">JavaScript</a>,&nbsp;<a href="/tags/c-sharp/">C-Sharp</a>,&nbsp;<a href="/tags/react/">React</a>,&nbsp;<a href="/tags/asp.net-core/">ASP.NET Core</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/posts/what_lies_below/" class="prev" rel="prev" title="What Lies Below"><i class="fas fa-angle-left fa-fw"></i>What Lies Below</a></div>
+</div>
+</article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.87.0">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.10"><i class="far fa-kiss-wink-heart fa-fw"></i> LoveIt</a>
+                </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">Ashton Fisher</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw"></i>
+            </a>
+        </div><script type="text/javascript" src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":10},"comment":{}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

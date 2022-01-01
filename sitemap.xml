@@ -2,13 +2,17 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>http://example.org/</loc><lastmod>2021-08-09T13:06:06-06:00</lastmod></url><url>
-            <loc>http://example.org/tags/c#/</loc><lastmod>2021-08-09T13:06:06-06:00</lastmod></url><url>
-            <loc>http://example.org/categories/</loc><lastmod>2021-08-09T13:06:06-06:00</lastmod></url><url>
+            <loc>http://example.org/</loc><lastmod>2022-01-01T14:49:08-07:00</lastmod></url><url>
+            <loc>http://example.org/tags/asp.net-core/</loc><lastmod>2022-01-01T14:49:08-07:00</lastmod></url><url>
+            <loc>http://example.org/tags/c-sharp/</loc><lastmod>2022-01-01T14:49:08-07:00</lastmod></url><url>
+            <loc>http://example.org/categories/</loc><lastmod>2022-01-01T14:49:08-07:00</lastmod></url><url>
+            <loc>http://example.org/tags/javascript/</loc><lastmod>2022-01-01T14:49:08-07:00</lastmod></url><url>
+            <loc>http://example.org/posts/</loc><lastmod>2022-01-01T14:49:08-07:00</lastmod></url><url>
+            <loc>http://example.org/categories/projects/</loc><lastmod>2022-01-01T14:49:08-07:00</lastmod></url><url>
+            <loc>http://example.org/tags/react/</loc><lastmod>2022-01-01T14:49:08-07:00</lastmod></url><url>
+            <loc>http://example.org/posts/rusty_trader/</loc><lastmod>2022-01-01T14:49:08-07:00</lastmod></url><url>
+            <loc>http://example.org/tags/</loc><lastmod>2022-01-01T14:49:08-07:00</lastmod></url><url>
             <loc>http://example.org/tags/game-development/</loc><lastmod>2021-08-09T13:06:06-06:00</lastmod></url><url>
-            <loc>http://example.org/posts/</loc><lastmod>2021-08-09T13:06:06-06:00</lastmod></url><url>
-            <loc>http://example.org/categories/projects/</loc><lastmod>2021-08-09T13:06:06-06:00</lastmod></url><url>
-            <loc>http://example.org/tags/</loc><lastmod>2021-08-09T13:06:06-06:00</lastmod></url><url>
             <loc>http://example.org/tags/unity3d/</loc><lastmod>2021-08-09T13:06:06-06:00</lastmod></url><url>
             <loc>http://example.org/posts/what_lies_below/</loc><lastmod>2021-08-09T13:06:06-06:00</lastmod></url><url>
             <loc>http://example.org/tags/html/</loc><lastmod>2021-08-09T11:40:17-06:00</lastmod></url><url>
